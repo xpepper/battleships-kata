@@ -38,7 +38,7 @@ Create a program that allows the user to specify commands for playing battleship
 ## Rules
 
 * When all ships have been sunk the game ends
-* When the game is finished the game should display a battle report the number of shots fired by each player, including hit/miss ship sunk.
+* When the game is finished, the game should display a battle report with the number of shots fired by each player, including hit/miss ship sunk.
 * Ships sunk should show the lowest possible coordinate for the given ship, for example:    - a horizontal destroyer on grid reference (2,3), (3,3) and (4,3), but when reporting the sinking of the ship, you only need to reference the first coordinate.
   - A horizontal destroyer on grid reference (2,3), (3,3) and (4,3), but when reporting the sinking of the ship, you only need to reference the first coordinate.
   - A vertical destroyer on ref (5,5), (5,6) and (5,7) but you'll only need to reference (5,5) when reporting.
