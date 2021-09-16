@@ -12,9 +12,10 @@
 
 ## Doubts
 * Can a single player play a battleships game? Or should we expect two players before allowing the game to start?
-* Is it allow to have more than 2 players? If so, how should I decide which one to fire to?
+* Is it allow to have more than 2 players? 
+  * If so, how should I decide which one to fire to?
+  * If not, what's the point of the `addPlayer` command?
 * How to specify the player's ship positions when adding a new player? 
   * e.g. `addPlayer (1,3), (1,4), (1,5)` ??
   * what if I add more ships than the ones allowed by the game? (e.g. 100 destroyers?)
 * What if I `fire` more that once before ending my turn? Should this be disallowed somehow?
-* 
